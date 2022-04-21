@@ -1,0 +1,56 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.highking{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    padding: 70px;
+}
+.content{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    /* background-color: red; */
+    padding: 20px;
+}
+.text{    
+    display: flex;
+    font-size: 18px;
+    color: rgb(81, 81, 81);
+    padding: 30px 100px 30px 0px;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 600;
+}
+.subheading{
+    font-size: 20px;
+    font-weight: 600;  
+}
+.icons{
+    display:flex ;
+    flex-direction: row;
+}
+.icon{
+    padding: 10px 20px 0px 0px;
+}
+.contact{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+}
+.text1{
+    /* display: flex; */
+    font-size: 18px;
+    color: rgb(81, 81, 81);
+    padding: 15px 0px;
+}

@@ -1,0 +1,29 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.safe_journey{
+    color: rgb(4, 130, 234);
+    font-weight: 600;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 15px 0px 70px 0px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+.imgL{
+padding: 30px;
+}

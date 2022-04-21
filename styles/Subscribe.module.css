@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 300px;
+    background-color: rgb(197, 251, 251);
+}
+.heading{
+    font-size: 30px;
+   font-weight: 650;
+   padding:20px 120px;
+}
+.subheading{
+    font-size: 18px;
+    color: rgb(81, 81, 81);
+    padding: 10px 50px;
+}
+.form{
+    display: flex;
+    padding-top: 50px;
+}
+.mail{
+    width:300px;
+    height:40px;
+    border-radius: 50px;
+    border-style: none;
+    border: 1px solid rgba(10, 118, 242, 0.951);
+    padding: 0px 10px;
+}
+.button{
+    width: 120px;
+    border-radius: 50px;
+    margin-left: 10px;
+}

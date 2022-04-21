@@ -1,0 +1,20 @@
+.bg{
+    background-image: url('../assets/assects/images/enjoy\ your\ life\ with\ us\ bg\ .png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.image2{
+    display: flex;
+    flex:1
+}
