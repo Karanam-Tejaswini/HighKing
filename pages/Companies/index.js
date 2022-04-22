@@ -11,7 +11,7 @@ function index() {
         <div className={styles.safe_journey}>
         Safe Journey
         </div>
-        <div className={styles.content}>
+        <div style={{justifyContent:'center',alignItems:'center',textAlign:'center'}}>
             <div className={styles.heading}>Trusted by Big Companies</div>
             <div  className={styles.content}>
                 <div className={styles.logos}>

@@ -100,7 +100,7 @@ function Header() {
               {/* <ExpandCard /> */}
           </section>
         </div>
-        {/* <div className={styles.card}>
+        <div className={styles.card}>
           <div>
             <Secret_Locations/>
             <div className={styles.card_heading}>Secret Locations</div>
@@ -119,7 +119,7 @@ function Header() {
             <div className={styles.card_content}>Lorem ipsum dolor sit amet, consectet adispicing elit,sedo eiumodtempor</div>
             <div className={styles.Readmore}>Read more</div>
           </div>
-        </div> */}
+        </div>
       </div>
       <div className={styles.fromquote}>
       <div className={styles.card_content} style={{padding:"100px 0px"}}>Don&apos;t hesitate to contact us to get better information. <span className={styles.Readmore} style={{fontStyle:"italic"}}>EXPLORE ALL TREKKING</span></div>

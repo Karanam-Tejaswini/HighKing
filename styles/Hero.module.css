@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction:column;
-    padding: 10px 250px 100px 250px;
+    padding: 50px 250px 100px 250px;
     /* background-color: aqua; */
 }
 .navbar{
@@ -53,7 +53,7 @@
     font-size: 24px;
     font-weight: 500;
     color: rgb(81, 81, 81);
-    padding-top: 30px;
+    padding-top: 50px;
 }
 .text{
     display: flex;
@@ -70,7 +70,7 @@
     display: flex;
     flex: 1;
     flex-direction: row;
-    padding-top: 40px;
+    padding-top: 50px;
     /* justify-content: space-between; */
 }
 .contactUs{
@@ -105,20 +105,26 @@
     background-color: white;
     /* justify-content: space-around; */
     /* margin-top: 160px; */
-    padding: 50px 50px;
+    margin-top: 150px;
+    padding: 100px 100px 0px 100px;
 }
 .card_heading{
-    font-size: 20px;
+    font-size: 26px;
+    padding: 20px 0px;
     font-weight: bold;
 }
 .card_content{
-    
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-right: 20px;
     color: rgb(81, 81, 81);
 }
 
 .Readmore{
     font-weight: 600;
-    color: rgb(236, 31, 31);
+    font-size: 22px;
+    color:  #FE2C54;
 }
 .fromquote{
     
@@ -126,7 +132,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 .quote{
     /* justify-self: center; */

@@ -7,13 +7,14 @@ import safe_and_affordable from "../../assets/assects/images/safe and affordable
  function Location() {
   return (
     <div className={styles.bg}>
-      <div className={styles.imagediv}>
+      <div className={styles.imagediv} style={{alignItems:'center',justifyContent:'center'}}>
         <Image
           src={safe_and_affordable}
-          width="350px"
-          height="450px"
+          width="500px"
+          height="650px"
           className={styles.image1}
           alt="image"
+          // style={{paddingLeft:'200px',backgroundColor:'green'}}
         />
       </div>
       <div className={styles.content}>
@@ -24,12 +25,15 @@ import safe_and_affordable from "../../assets/assects/images/safe and affordable
           Trusted
           <br />
         </div>
-        <div className={styles.subheading}>
+        <div className={styles.subheading} style={{paddingRight:'550px'}}>
           Volunteer trail stewardship projects in America &apos;s parks and forests designed specifically for college student groups and  young professionals
         </div>
-        <Button variant="contained" className={styles.button}>
+        {/* <Button variant="contained" className={styles.button}>
           Contact Us
-        </Button>
+        </Button> */}
+        <div className={styles.button}>
+        Contact Us
+        </div>
       </div>
     </div>
   );
