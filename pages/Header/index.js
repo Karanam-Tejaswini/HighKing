@@ -27,22 +27,22 @@ function Header() {
             <div className={styles.list}>
               <div>
                 <li className={styles.li}>
-                  <a href="#section-1">Location</a>
+                  <a href="#section-1" className={styles.names}>Location</a>
                 </li>
               </div>
               <div>
                 <li className={styles.li}>
-                  <a href="#section-2">Blogs</a>
+                  <a href="#section-2" className={styles.names}>Blogs</a>
                 </li>
               </div>
               <div>
                 <li className={styles.li}>
-                  <a href="#section-3">Testimonials</a>
+                  <a href="#section-3" className={styles.names}>Testimonials</a>
                 </li>
               </div>
               <div>
                 <li className={styles.li}>
-                  <a href="#section-4">Contact</a>
+                  <a href="#section-4" className={styles.names}>Contact</a>
                 </li>
               </div>
             </div>
@@ -66,33 +66,41 @@ function Header() {
                   items={["section-1", "section-2", "section-3", "section-4"]}
                   currentClassName="is-current"
                 > */}
-                  <Button variant="contained" href="#section-4" className={styles.contactUs}>
+                  {/* <Button variant="contained" href="#section-4" className={styles.contactUs}>
                     Contact Us
-                  </Button>
+                  </Button> */}
+                  <div className={styles.contactUs}>
+                  Contact Us
+                  </div>
                 {/* </Scrollspy> */}
                 </div>
                 {/* <br/>
                 <br/> */}
                 <div>
                   {/* <br/> */}
-                <Button variant="outlined" className={styles.contactUs}>
+                {/* <Button variant="outlined" className={styles.contactUs}>
                   <a href="https://www.youtube.com/watch?v=cd8s7mEq3Mo">
                     Watch Video
                   </a>
-                </Button>
+                </Button> */}
+                <div className={styles.WatchVideo}>
+                <a href="https://www.youtube.com/watch?v=cd8s7mEq3Mo">
+                    Watch Video
+                  </a>
+                </div>
                 </div>
                 </div>
               </div>
             </div>
             <div >
               <div className={styles.imageContainer}>
-              <Image src={HeroImage} width="400px" height="600px" className={styles.img} alt="image"/>
+              <Image src={HeroImage} width="550px" height="800px" className={styles.img} alt="image"/>
               </div>
               </div> 
               {/* <ExpandCard /> */}
           </section>
         </div>
-        <div className={styles.card}>
+        {/* <div className={styles.card}>
           <div>
             <Secret_Locations/>
             <div className={styles.card_heading}>Secret Locations</div>
@@ -111,7 +119,7 @@ function Header() {
             <div className={styles.card_content}>Lorem ipsum dolor sit amet, consectet adispicing elit,sedo eiumodtempor</div>
             <div className={styles.Readmore}>Read more</div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={styles.fromquote}>
       <div className={styles.card_content} style={{padding:"100px 0px"}}>Don&apos;t hesitate to contact us to get better information. <span className={styles.Readmore} style={{fontStyle:"italic"}}>EXPLORE ALL TREKKING</span></div>
